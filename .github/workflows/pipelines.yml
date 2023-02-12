@@ -28,5 +28,3 @@ jobs:
       - run: |
           npm ci
           npm run build
-#     - name: build and push to repository
-#       run: some script or command
