@@ -2,7 +2,7 @@
 
 Run `npm i`
 
-Run `nvm use 18.14.0`
+Run `nvm use 18.14.0` or latest node version installed
 
 Run `ng serve` 
 

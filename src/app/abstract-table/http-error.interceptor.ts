@@ -19,7 +19,7 @@ export class HttpErrorInterceptor implements HttpInterceptor {
         if (error.error instanceof Error) {
           console.error('An error occurred:', error.error.message);
         } else {
-          console.error(`Backend returned code ${error.status}, body was: ${error.error}`);
+          console.error(`Backend returned code ${error.status}, exception was: ${error.error.exception}`);
         }
         return EMPTY;
       })
